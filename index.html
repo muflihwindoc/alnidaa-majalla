@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>
+		Creating Search Bar using HTML
+		CSS and Javascript
+	</title>
+	
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<!-- linking the stylesheet(CSS) -->
+	
+</head>
+
+<body>
+	<header>
+		<div class="position-relative">
+			<a href="#" class="mx-2"><span class="bi-facebook"></span></a>
+			<a href="#" class="mx-2"><span class="bi-twitter"></span></a>
+			<a href="#" class="mx-2"><span class="bi-instagram"></span></a>
+	
+			<a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+			<i class="bi bi-list mobile-nav-toggle"></i>
+	
+		   
+			<div class="search-form-wrap js-search-form-wrap">
+			  <form action="search-result.html" class="search-form">
+				<span class="icon bi-search"></span>
+				<input type="text" placeholder="Search" class="form-control">
+				<button class="btn js-search-close"><span class="bi-x"></span></button>
+			  </form>
+			</div>
+	
+		  </div>
+	</header>
+	
+	
+	<input id="searchbar" onkeyup="search_animal()" type="text"
+		name="search" placeholder="Search animals..">
+	
+	
+	<ol id='list'>	
+		<li class="animal">Dog</li>
+		<li class="animal">cat</li>
+		<li class="animal">horse</li>
+		<li class="animal">man</li>
+		<li class="animal">puli</li>
+		<li class="animal">doc</li>
+		
+		
+	</ol>
+	
+	
+
+
+	
+	
+<script src="alnidhaa.js"></script>
+<script src="./assets/js/main.js"></script>
+
+	
+</body>
+
+</html>
